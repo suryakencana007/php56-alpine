@@ -6,7 +6,6 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - ${PWD}/app:app/
+      - ${PWD}/app:/app/
       - ${PWD}/logs:/var/log/apache2/
     restart: always
-    mem_limit: 128m
