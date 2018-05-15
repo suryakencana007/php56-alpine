@@ -8,4 +8,11 @@ services:
     volumes:
       - ${PWD}/app:/app/
       - ${PWD}/logs:/var/log/apache2/
+    networks:
+      - outside
     restart: always
+
+
+networks:
+  outside:
+    driver: "bridge"
