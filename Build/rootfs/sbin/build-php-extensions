@@ -25,9 +25,7 @@ pecl_install ()
 pecl_install extension apcu 4.0.10 --enable-apcu
 pecl_install zend_extension xdebug 2.3.3 --enable-xdebug
 
-pecl_install extension mongodb 1.2.2
-pecl_install extension mongo 1.6.14
-
+pecl_install extension mongodb 1.4.3
 pecl_install extension redis 2.2.8
 # Cleanup
 
