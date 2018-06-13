@@ -1,5 +1,7 @@
 FROM alpine:3.5
 
+LABEL maintainer="nanang.jobs@gmail.com"
+
 COPY rootfs /
 
 RUN mkdir /app
